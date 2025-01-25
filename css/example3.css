@@ -34,6 +34,8 @@ article h2 {
   color: #fff;
   text-align: center;
   grid-column: span 2;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.7em;
 }
 .art_head_bg {
   background-color: #333;
@@ -44,8 +46,9 @@ article h2 {
 }
 
 p:not(.price) {
-  font-size: 2em;
-  margin: 0.2em;
+  font-size: 1.1em;
+  margin: 0.4em 0.6em;
+  font-family: system-ui;
 }
 
 .price {
@@ -57,10 +60,11 @@ p:not(.price) {
   aspect-ratio: 1/1;
   background: yellow;
   text-align: center;
-  font-size: 1.1em;
+  font-size: 0.8em;
   margin: 05px;
-  padding: 0.3em 0.5em;
+  padding: 0.5em 0.5em;
   line-height: 3em;
   width: max-content;
   justify-self: right;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
